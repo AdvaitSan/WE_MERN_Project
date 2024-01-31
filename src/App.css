@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+.home__Container {
+  background-image: url("./components/veg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  /* margin-top: 80px; */
+  /* color: var(--white__color); */
+}
+.home__bgLayer {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+}
+.custom-shape-divider-top-1701551187 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1701551187 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 65px;
+}
+
+.custom-shape-divider-top-1701551187 .shape-fill {
+  fill: #000000;
 }
