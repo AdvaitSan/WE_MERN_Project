@@ -8,6 +8,7 @@ import {
 import App from './App';
 import CreateCampaign from './components/CreateCampaign';
 import reportWebVitals from './reportWebVitals';
+import Search from './components/Search';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/create",
     element: <CreateCampaign/>,
+  },
+  {
+    path: "/Search",
+    element: <Search/>,
   },
 ]);
 root.render(

@@ -1,0 +1,9 @@
+#bod{
+    background-image: url("./pookieeaeting.jpg");
+    /* background-color: aquamarine; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* margin-top: 80px; */
+    /* color: var(--white__color); */
+  }
