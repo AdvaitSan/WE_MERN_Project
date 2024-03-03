@@ -23,7 +23,7 @@ const CreateCampaign = () => {
 
     console.log('Data to be sent:', data);
 
-    axios.post('http://localhost:3000/campaigns', data, {
+    axios.post('http://localhost:5000/campaigns', data, {
       headers: {
         'Content-Type': 'application/json',
       },

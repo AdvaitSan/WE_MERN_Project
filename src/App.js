@@ -2,7 +2,6 @@ import React from 'react';
 import CampaignList from './components/CampaignList';
 import "./App.css"
 import Search from './components/Search';
-import PowerPuff from './components/PowerPuff';
 
 
 // const CampaignsList = ({ campaigns, wallet }) => {
@@ -50,7 +49,6 @@ const App = () => {
     </svg>
 </div>
         <Search/>
-        {/* <PowerPuff/> */}
       </div>
 
     </>

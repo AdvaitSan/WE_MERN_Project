@@ -9,7 +9,7 @@ const Search = () => {
 
     useEffect(() => {
         // Fetch campaigns from backend when component mounts or location changes
-        fetch(`http://localhost:3000/campaigns/${location}`)
+        fetch(`http://localhost:5000/campaigns/${location}`)
             .then((res) => res.json())
             .then((data) => setCampaigns(data))
             .catch((error) => console.error('Error fetching campaigns:', error));

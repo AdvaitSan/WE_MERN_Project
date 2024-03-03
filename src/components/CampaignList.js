@@ -6,7 +6,7 @@ const CampaignList = () => {
 
   useEffect(() => {
     // Fetch campaigns from backend when component mounts
-    fetch('http://localhost:3000/campaigns')
+    fetch('http://localhost:5000/campaigns')
       .then((res) => res.json())
       .then((data) => setCampaigns(data))
       .catch((error) => console.error('Error fetching campaigns:', error));
